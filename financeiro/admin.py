@@ -1,3 +1,6 @@
 from django.contrib import admin
+from financeiro.models import User, Transacoes 
 
-# Register your models here.
+admin.site.register(User)
+
+admin.site.register(Transacoes)
